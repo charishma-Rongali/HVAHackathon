@@ -1,0 +1,386 @@
+body {
+  width: 1440px;
+  height: 2003px;
+  flex-shrink: 0;
+  background: #f8f8f4;
+  padding-top: 32px;
+}
+.mainSection {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 89px;
+}
+.mainSection > .no-gap {
+  margin-top: -89px;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 32px;
+}
+
+.section1 svg {
+  width: 60.291px;
+  height: 60.291px;
+}
+
+.section1 span {
+  color: var(--Dark, #3c3030);
+  font-family: "Iowan Old Style";
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 117.6px */
+}
+
+.lineSection {
+  margin-top: 0px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.lineSection > .line1 {
+  margin-top: 0px;
+  width: 1440px;
+  height: 1px;
+  background: #3c3030;
+}
+
+.lineSection > .line2 {
+  width: 1440px;
+  height: 1px;
+  background: #3c3030;
+  margin-bottom: 57px;
+}
+.section2 {
+  width: 327px;
+  height: 61px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.section2 > .search-box {
+  width: 267px;
+  height: 60px;
+  flex-shrink: 0;
+  border: 1px solid var(--Dark, #3c3030);
+  opacity: 0.3;
+  display: flex;
+  align-items: center;
+}
+
+.search-box > .search-icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.search-box > .search {
+  color: var(--Dark, #3c3030);
+  font-family: "Iowan Old Style";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  opacity: 0.61;
+}
+
+.section2 > .outer-go {
+  display: inline-flex;
+  padding: 17px 13px 16px 22px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 1px;
+  border: 1px solid #e84848;
+  background: #e84848;
+}
+
+.outer-go > .inner-go {
+  color: var(--light, #fdfdfa);
+  font-family: "Iowan Old Style";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.section3 > .para {
+  color: var(--Dark-Red, #d02424);
+  font-family: "Inria Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}
+
+.section3 .all-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 96px;
+}
+
+.all-rows > .row {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.row > .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+img {
+  width: 250px;
+  height: 120px;
+}
+
+.col > .title {
+  width: 250px;
+  color: var(--Dark, #3c3030);
+  font-family: "Inknut Antiqua";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 21.6px */
+  letter-spacing: -0.72px;
+}
+
+.col > .info {
+  width: 250px;
+  opacity: 0.8;
+  color: var(--Dark, #3c3030);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+.col > .read-more {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.read-more > .fullArticle {
+  color: var(--Dark, #3c3030);
+  font-family: "Inria Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+.read-more > .arrow {
+  color: var(--Dark-Red, #d02424);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+  text-decoration-line: underline;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 59px;
+}
+
+footer > .line3 {
+  width: 1440px;
+  height: 1px;
+  background: #3c3030;
+}
+
+footer > .footerblock {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.footerblock span {
+  color: var(--Dark, #3c3030);
+  font-family: "Iowan Old Style";
+  font-size: 15.095px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 21.133px */
+}
+span .NewsAPI {
+  display: flex;
+  align-items: center;
+  gap: 2.264px;
+}
+
+.footerblock .lastContent {
+  color: var(--Dark, #3c3030);
+  font-family: "Inria Serif";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+@media screen and (max-width: 415px) {
+  body {
+    display: inline-flex;
+    padding-top: 29px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #f8f8f4;
+  }
+
+  .mainSection {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .section1 span {
+    font-size: 35.957px;
+  }
+
+  .section1 svg {
+    width: 25.809px;
+    height: 25.809px;
+  }
+
+  .mainSection > .lineSection.no-gap {
+    margin-top: -60px;
+  }
+
+  .mainSection > .section2.no-gap {
+    margin-top: -60px;
+  }
+
+  .mainSection > .section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.712px;
+    margin-bottom: 20px;
+  }
+
+  .mainSection > .lineSection {
+    margin-top: 20px;
+    gap: 0px;
+  }
+
+  .lineSection .line1 {
+    width: 414px;
+    height: 1px;
+  }
+
+  .lineSection .line2 {
+    width: 414px;
+    height: 1px;
+    margin-bottom: 60px;
+  }
+
+  .mainSection > .section2 {
+    width: 362px;
+    height: 61px;
+  }
+
+  .section2 > .search-box {
+    width: 337px;
+    height: 61px;
+    flex-shrink: 0;
+  }
+
+  /* .search-box > .search {
+        color: var(--Dark, #3C3030);
+        font-family: "Iowan Old Style";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 28px */
+  /* opacity: 0.61; */
+  /* } */
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .section3 > .all-rows > .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+  }
+
+  .row > .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  img {
+    width: 364px;
+    height: 180px;
+  }
+
+  .col .title {
+    width: 360px;
+  }
+
+  .col .info {
+    width: 361px;
+  }
+
+  footer {
+    height: 162px;
+    gap: 28px;
+  }
+
+  footer > .line3 {
+    width: 414px;
+    height: 1px;
+    background: #3c3030;
+  }
+
+  footer > .footerblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .footerblock > .firstContent {
+    display: flex;
+    align-items: center;
+    gap: 2.264px;
+  }
+
+  .footerblock > .lastContent {
+    width: 181px;
+    text-align: center;
+  }
+}
