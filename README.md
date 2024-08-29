@@ -16,23 +16,19 @@ SVG Graphics: For icons and visual elements.
 Installation
 To run this project locally, follow these steps:
 Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/NewsAPIOrg.git
+git clone https://github.com/charishma-Rongali/hvaHackathon.get
+
 Navigate to the project directory:
-
-bash
-Copy code
-cd NewsAPIOrg
+cd hvaHackathon
 Open index.html in your preferred web browser.
-
 You can also use a live server extension if you are using Visual Studio Code for better development experience.
 
 Usage
 Open the index.html file in any modern web browser.
-Use the search bar at the top to search for specific news articles.
+Use the search bar at the top to search for specific news articles(needed tobe implemented).
 Browse through the displayed news articles.
 Click on "Read full article" to navigate to the full news article on the source website.
+
 Contributing
 Contributions are always welcome! If you have any suggestions or improvements, feel free to open a pull request. Please make sure to follow the standard coding conventions and write clear commit messages.
 
